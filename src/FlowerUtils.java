@@ -32,6 +32,6 @@ public class FlowerUtils {
                 (hrizCount > 0 ? "Хризонтема - " + hrizCount + " " : "") +
                 (pionCount > 0 ? "Пион - " + pionCount : "") + " " +
                 (gipsCount > 0 ? "Гипсофила - " + gipsCount : "") + " " +
-                "||| Общая цена : " + total + " ||| Простоит дней : " + minLife);
+                "||| Общая цена : " + (total + 0.1 * total) + " ||| Простоит дней : " + minLife);
     }
 }
